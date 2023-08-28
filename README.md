@@ -1,30 +1,36 @@
-# Wited prueba Técnica frontend
+# Wited Prueba Técnica frontend
 
-This template should help get you started developing with Vue 3 in Vite.
+Esta plantilla debería ayudarte a empezar a desarrollar con Vue 3 en Vite.
 
-## Recommended IDE Setup
+## Configuración Recomendada del IDE
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (y deshabilita Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
-## Type Support for `.vue` Imports in TS
+## Soporte de Tipos para Importaciones `.vue` en TS
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+TypeScript no puede manejar información de tipos para las importaciones `.vue` por defecto, por lo que reemplazamos la CLI `tsc` con `vue-tsc` para la verificación de tipos. En los editores, necesitamos el [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) para que el servicio de lenguaje de TypeScript reconozca los tipos `.vue`.
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+Si el plugin independiente de TypeScript no es lo suficientemente rápido para ti, Volar también ha implementado un [Modo Take Over](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) que es más eficiente en rendimiento. Puedes habilitarlo siguiendo estos pasos:
 
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+1. Desactiva la Extensión Integrada de TypeScript
+   1) Ejecuta `Extensions: Show Built-in Extensions` desde la paleta de comandos de VSCode
+   2) Encuentra `TypeScript and JavaScript Language Features`, haz clic derecho y selecciona `Disable (Workspace)`
+2. Recarga la ventana de VSCode ejecutando `Developer: Reload Window` desde la paleta de comandos.
 
-## Customize configuration
+## Personaliza la configuración
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+Consulta la [Referencia de Configuración de Vite](https://vitejs.dev/config/).
 
-## Project Setup
+## Configuración del Proyecto
 
 ```sh
 npm install
+```
+
+## Variable de Entono
+
+```.env
+VITE_API_URL = https://jsonplaceholder.typicode.com
 ```
 
 ### Compile and Hot-Reload for Development
